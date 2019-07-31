@@ -25,11 +25,7 @@ int main(int argc, char *argv[]){
 
     int sys_cmd1_len = strlen(sys_cmd1);
     int sys_cmd2_len = strlen(sys_cmd2);
-
-    char *currentDir = getDirectory();
-
-    char *args[] = {"./kernel/kernel", "0",  (char*)0 };
-    char *env_args[] = { (char*)0 };
+    
 
     if (argc == 2)
     {   
